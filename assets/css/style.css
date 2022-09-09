@@ -1,9 +1,181 @@
 /* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+
+
+body {
+  color: #000;
+  font-family: fira sans;
+  font-size: 1rem;
+  line-height: 1.8;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h4{
+    font-size: 2rem;
+    line-height: 1.2;
+}
+p {
+  font-size: 1rem;
+}
+
+
+
+a,
+i {
+  color: #e42424;
+}
+
+i{
+    font-size: 40px;
+}
+
+button {
+  font-size: 1.3rem;
+  color: white;
+}
 /* HEADER */
+header, section {
+    padding: 2.4vh 1.5vh;
+}
 
+nav ul {
+  display: none
+}
+
+header img{
+    height: 5vh;
+}
+
+div, section{
+    box-sizing: border-box;
+    text-align: center;
+    padding:2vh;
+}
+
+div h1, div h2, div h3, div p, section h3, section p{
+    margin: 3.3vh 2vh;
+}
 /* MAIN */
+
+#banner_box {
+  background-image: url(../images/banner.jpg);
+  background-size:cover;
+  width: 100vw;
+  height: 58vh;
+  background-position-x: center;
+  color: white;
+  text-align: left;
+  }
+
+  #banner_box p{
+    margin: 3.3vh 1vh;
+    margin-bottom: 4vh;
+    
+  }
+
+  #banner_box h1{
+    margin: 3.3vh 1vh;
+  }
+
+
+
+button {
+  background-image: linear-gradient(to right, #6cc1e2, #392f7a);
+  border: none;
+  padding: 15px 20px;
+  font size: 1.2rem;
+}
+
+section {
+  background-color: #0c0633;
+  width: 100%;
+  height: 54vh;
+  color: white;
+  padding: 9.4vh 1.5vh;
+  
+}
+
+
+aside{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+aside div{
+    margin-bottom:7vh;
+}
+
+aside img{
+    width: 100%;
+    margin: 0 auto;   
+}
+
+h4 i{
+    margin-right: 8px;
+}
+
+aside p{
+    margin: 2vh 1vh;
+}
 
 /* FOOTER */
 
+footer{
+    padding: 5vh;
+}
+
+footer div{
+    text-align: left;
+    width: 90%;
+    
+    padding:0;
+}
+
+footer h4{
+    font-size: 1.5rem;
+}
+
+footer div p{
+    margin-left: 0;
+}
+
+footer div i{
+    padding-top:1vh;
+    padding
+}
+
+#social{
+    margin-bottom: 2vh;
+}
+
+#form label{
+    font-size: 1.5rem;
+    padding: 1vh;
+}
+
+#form input{
+    padding: 20px 50px;
+}
+
+#form button{
+    padding: 10px 95px;
+}
+
+footer p{margin-top:2vh;}
 /* RESPONSIVE */
