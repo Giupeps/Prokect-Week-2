@@ -6,7 +6,7 @@ body {
   font-family: fira sans;
   font-size: 1rem;
   line-height: 1.8;
-  width: 100vw;
+  width: 100%;
 }
 
 h1 {
@@ -46,6 +46,13 @@ button {
   color: white;
 }
 /* HEADER */
+header {
+  background-color: white;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 header,
 section {
   padding: 2.4vh 1.5vh;
@@ -76,6 +83,10 @@ section p {
   margin: 3.3vh 2vh;
 }
 /* MAIN */
+
+main {
+  width: 100%;
+}
 
 #banner_box {
   background-image: url(../images/banner.jpg);
@@ -266,17 +277,22 @@ footer p {
   footer {
     box-sizing: border-box;
     max-width: 100%;
-    padding: 2vh;
+    padding: 6vh;
   }
 
   #contact {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  #contact h4 {
+    font-size: 1.4rem;
   }
 
   #form input {
-    padding: 20px 44px;
+    padding: 20px 35px;
   }
 }
 
