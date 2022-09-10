@@ -14,7 +14,8 @@
   <body>
     <!-- HEADER -->
     <header>
-      <a href="#"></a><img src="./assets/images/logo.png" alt="Logo Epicode" /></a>
+      <div><a href="#"><img src="./assets/images/logo.png" alt="Logo Epicode" /></a>
+      </div>
       <nav>
         <ul>
           <li><a href="./index.html"> Home</a></li>
@@ -25,7 +26,10 @@
           </li>
         </ul>
       </nav>
+      <div id="ellipsis"><i class="fa-solid fa-ellipsis"></i></div>
     </header>
+
+    
 
     <!-- MAIN -->
     <main>
@@ -72,8 +76,10 @@
 
       <!-- MAIN ASIDE -->
       <aside>
-        <img src="./assets/images/notebook.jpg" alt="notebook" />
-        <div>
+        <div id="notebook_img">
+         <img src="./assets/images/notebook.jpg" alt="notebook" />
+        </div>
+        <div id="carreer">
           <h4><i class="far fa-grin"></i>Chi Sarai</h4>
           <p>Il creatore delle app che usi tutti i giorni</p>
 
@@ -95,16 +101,14 @@
         </div>
         <div>
           <h4>Ti piace ciò che vedi? Condivindilo con i tuoi amici!</h4>
-
           <i class="fa-brands fa-square-facebook"></i>
           <i class="fa-brands fa-linkedin"></i>
           <i class="fa-brands fa-instagram"></i>
         </div>
+          
         <div id="form">
-          <label for="subscribe"> Iscriviti alla nostra newsletter </label>
-
+          <h4> Iscriviti alla nostra newsletter </h4>
           <input type="email" id="email" name="email" />
-          <br />
           <button type="submit">Va bene!</button>
         </div>
       </div>
