@@ -84,24 +84,8 @@ section p {
 
 main {
   width: 100%;
-}
-
-#banner_box {
-  background-image: url(../images/banner.jpg);
-  background-size: cover;
-  background-position: 50% 100%;
-  color: white;
-  text-align: left;
-  padding-left: 4vh;
-}
-
-#banner_box p {
-  margin: 3.3vh 1vh;
-  margin-bottom: 4vh;
-}
-
-#banner_box h1 {
-  margin: 3.3vh 1vh;
+  text-align: center;
+  margin-bottom: 10vh;
 }
 
 button {
@@ -111,23 +95,20 @@ button {
   font-size: 1.2rem;
 }
 
-#form_container{
-  height: 30%;
+#contact_form {
+  height: 51%;
+  margin: 0 auto;
+  
 }
 
-#contact_form {
-  height: 32%;
-  margin: 0 auto;
-  padding: 3vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+#contact_form h3 {
+  margin:0;
 }
 
 #contact_form textarea{
   width: 100%;
   padding-top: 1vh;
+  margin: 1vh 0;
 }
 
 #contact_form button{
